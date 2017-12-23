@@ -111,8 +111,7 @@ public class DBUtils {
  
         pstm.setString(1, product.getCode());
         pstm.setString(2, product.getName());
-        pstm.setFloat(3, product.getPrice());
- 
+        pstm.setFloat(3, product.getPrice()); 
         pstm.executeUpdate();
     }
  

@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.mysql.jdbc.Connection;
+import java.sql.Connection;
 import com.poseal.beans.UserAccount;
 
 public class MyUtils {
