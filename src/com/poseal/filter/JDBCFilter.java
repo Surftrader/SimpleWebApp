@@ -57,7 +57,7 @@ public class JDBCFilter implements Filter{
 			}
 			
 		} else {
-			chain.doFilter(request, response);
+			chain.doFilter(req, response);
 		}
 	}
 	
