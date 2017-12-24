@@ -24,8 +24,8 @@
 			<td><input type="text" name="password" value="${user.password}"/></td>
 		</tr>
 		<tr>
-			<td>Pemember me</td>
-			<td><input type="text" name="rememberMe" value="Y"/></td>
+			<td>Remember me</td>
+			<td><input type="checkbox" name="rememberMe" value="Y"/></td>
 		</tr>
 		<tr>
 			<td colspan="2">
